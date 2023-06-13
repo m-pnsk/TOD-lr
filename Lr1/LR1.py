@@ -232,6 +232,8 @@ if __name__ == '__main__':
     print()
     get_allStudents_with_allCourses()
 
+    cursor.close()
+    cnx.close()
 
 
 
